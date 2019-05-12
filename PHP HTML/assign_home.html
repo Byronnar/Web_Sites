@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<link rel="stylesheet" type="text/css" href=" ../CSS/home.css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>LDC</title>
+</head>
+<body background="../IMG/9.gif">
+    <center><h1 id="top"> HOME </h1></center>
+  <img src="../IMG/5.jpg" id="fimg">  
+<center>
+<table>
+<tr> 
+           
+<td><h2><a href="assign_home.html" id="link">Home Page</a></h2></td> 
+
+<td><h2><a href="assign_post_results.php" id="link">Discussion Board</a></h2></td>  
+
+<td><h2><a href="assign_enrolment.php" id="link">Enrolment</a></h2></td> 
+
+</tr> 
+     
+</table>
+</center>
+<center>
+    <p id="text">Learning and Discussion center website is for lecturers, students, and teachers to learn and discuss.</p>
+</center>
+      <h4 id="niu"><a href="assign_login_form.php" id="link">Log in</a></h4>
+        <h4 id="niu"><a href="assign_signup_form.php" id="link">Sign up</a></h4>
+          <h4 id="niu"><a href="assign_management.php" id="link">My Account</a></h4>
+
+
+<div class="box" align="center">
+	<span>Time</span>
+	<div class="content">
+	<span id="clock"></span>
+	</div>
+</div>
+<script>
+	function showTime() {
+	var curTime = new Date();
+	$("#clock").html(curTime.toLocaleString());
+	setTimeout("showTime()", 1000);
+}
+$(function(){
+	showTime();
+        
+});
+</script>
+<center>
+
+<div id="left">
+<img id="image1" src="../IMG/1.jpg"/>
+<div id="word1">Lecture</div>
+</div>
+
+<div id="middle">
+<img id="image2" src="../IMG/6.jpg"/>
+<div id="word2">Tutor</div>
+</div>
+
+<div id="right">
+<img id="image3" src="../IMG/3.jpg"/>
+<div id="word3">Student</div>
+</div>
+</center>
+<h3 id="in">Click the words such as "lecture",the picture will disppear.</h3>
+<hr />
+<table>
+    <tr>
+<td>
+<a href="assign_con.html" id="link1">About us</a>
+</td>
+<td>
+<a href="assign_logout.php" id="link1">Log out</a>
+</td>
+    </tr>
+    <tr>
+        <td id="intro">There are some information</td>   <td id="intro">If you want to</td></tr>
+    <tr><td id="intro"> for you   </td>    <td id="intro"> change your account,Please clik on here.</td>  </tr>
+    <tr><td id="intro">to know about us such as teachers information.</td>  </tr>
+    
+</table>
+  <script>
+$(document).ready(function(){
+     $("#word1").click(function(){
+	$("#image1").toggle();
+	});
+	$("#word2").click(function(){
+	$("#image2").toggle();
+	});
+	$("#word3").click(function(){
+	$("#image3").toggle();
+	});
+	});
+
+</script>
+</body>
+</html>

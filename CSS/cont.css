@@ -1,0 +1,10 @@
+#fimg{left:0%;top:0%;width:100%; height:240px;}
+#top{ color:#006666; font-family:"Times New Roman", Times, serif; text-align:center; font-size:36px;position: absolute;top:50px;left: 380px;}
+#link{ padding:10px; font-family:"Times New Roman", Times, serif;}
+#p{margin-left:400px}
+#h2{ font-family:"Times New Roman", Times, serif; text-align:center;}
+#text{ font-family:"Times New Roman", Times, serif;}
+#list{ border-bottom:inset; border-bottom-color:#999999;}
+#com{ color:blueviolet; font-family:"Times New Roman", Times, serif; font-size:36px;}
+#inf{border-style: solid dotted dashed double;font-family:"Times New Roman", Times, serif;}
+a:link{text-decoration:none;}

@@ -1,0 +1,17 @@
+#fimg{left:0%;top:0%;width:100%; height:240px;}
+div.box{width:300px; margin-left:550px;border:4px dashed #ccc;position: absolute;top:390px;left:5px;}
+div.box>span{color:#999; font-style:normal;}
+div.content{width:250px;margin:10px 0;padding:20px;border:2px;}
+#top{ color:#006666; font-family:"Times New Roman", Times, serif; text-align:center; font-size:36px;position: absolute;top:50px;left: 500px;}
+#link{ padding:10px; font-family:"Times New Roman", Times, serif;text-decoration:none;}
+a:link{text-decoration:none;}
+#Link{margin-left:10px; margin-right:50px; text-align:center;}
+#left{ width:30%; height:250px; float:left; font-size:18px; margin:15px;}
+#middle{ width:33%; height:250px; float:left; font-size:16px; margin:15px;}
+#right{ width:28%; height:250px; float:left; font-size:18px; margin:15px;}
+#text{ font-family:"Times New Roman", Times, serif;font-size:20px;}
+#intro{ font-family:"Times New Roman", Times, serif;color:blueviolet;}
+#link1{ padding:30px; font-size: 30px;font-family:"Times New Roman", Times, serif;color: black;}
+#in{ font-family:"Times New Roman", Times, serif;color:green;}
+#image1{font-size:60px;}
+#niu{font-family:"Times New Roman", Times, serif;color:blueviolet;}
